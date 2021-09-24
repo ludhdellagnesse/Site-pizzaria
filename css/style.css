@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 50px;
+    background-color: coral;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color:#B22D00;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.disk-entregas{
+    font-size: 30px;
+}
+.menu-navegacao a{
+    text-decoration: none;
+    width: auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu-navegacao{
+    background-color:#D9A300;
+    width: auto;
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+}
+.conteudo{
+    width: auto;
+    background-color: floralwhite;    
+}
+.conteudo h1{
+    font-size: 40px;    
+}
+.conteudo h2{
+    font-size: 35px;
+    text-align:left; 
+    margin: 10px; 
+}
+.conteudo p{
+    text-align: left;
+    display:flex;
+    margin: 10px;
+}
+.pizza{
+    text-align: center;
+}
+.linha{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.lista-pizza{
+    column-count: 3;
+}
+
+.historia{
+    float: left;
+}
+.historia img{
+    width: 200px;
+    margin: 10px 10px 0px 0px;
+    border: 1px solid black;
+    padding: 5px;
+   
+}
+.historia h1{
+    text-align:right;
+}
+.historia p{
+    text-align: justify;
+    width: 400px;
+}
+.clear{
+    clear:both;
+}
+.forno{
+    float: left;
+}
+.sabor-1{
+     justify-content: space-between;
+     display: flex;
+     margin: 10px;
+}
+.coluna{
+    width:400px;
+}
+.coluna-1{
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 350px;
+}
+.coluna-1 img{
+    width: 100px;
+}
+footer{
+    background-color:#B22D00;
+    color: white;
+    text-align: center;
+    width: auto;
+    
+}
